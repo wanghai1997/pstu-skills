@@ -1,0 +1,24 @@
+# 微信公众号文章下载器依赖项
+
+# HTTP请求
+requests>=2.25.0
+
+# HTML解析
+beautifulsoup4>=4.9.0
+
+# 数据验证（可选，但推荐使用）
+pydantic>=1.8.0
+
+# 进度条显示
+tqdm>=4.60.0
+
+# Markdown转PDF（如果需要直接生成PDF）
+# weasyprint>=52.0
+# 或者
+# markdown2>=2.4.0
+# pdfkit>=0.6.1
+
+# 注意事项：
+# 1. 本项目通过保存Markdown格式来间接实现PDF，
+#    您可以使用 pdf skill 或其他工具将Markdown转换为PDF
+# 2. 如果需要直接生成PDF，请取消注释 weasyprint 或 pdfkit
