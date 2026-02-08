@@ -1,0 +1,15 @@
+# 量化投资系统依赖
+# 安装命令: pip install -r requirements.txt
+
+# 数据下载与处理
+baostock>=0.8.8
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Excel报告生成
+openpyxl>=3.1.0
+
+# 可选依赖（用于未来扩展）
+# matplotlib>=3.7.0  # 数据可视化
+# streamlit>=1.28.0  # Web界面
+# requests>=2.31.0   # HTTP请求
