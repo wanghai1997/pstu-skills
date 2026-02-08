@@ -1,0 +1,20 @@
+# PDF OCR Converter Dependencies
+
+# PDF processing
+pdf2image>=1.16.0      # Convert PDF pages to images
+Pillow>=9.0.0          # Image processing
+
+# OCR engine
+pytesseract>=0.3.10    # Python wrapper for Tesseract OCR
+
+# PDF generation
+reportlab>=3.6.0       # Create PDFs with text layer
+
+# Utilities
+numpy>=1.21.0          # Numerical operations
+
+# Optional: For better image preprocessing
+# opencv-python>=4.5.0  # Image preprocessing (deskew, denoise)
+
+# Note: You also need to install Tesseract OCR binary separately
+# See SKILL.md for installation instructions

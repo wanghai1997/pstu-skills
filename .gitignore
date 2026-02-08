@@ -208,3 +208,27 @@ __marimo__/
 
 # Git worktrees
 .worktrees/
+
+# Project specific
+# 数据文件（数据库可能很大，不包含在版本控制中）
+data/*.db
+data/*.db.bak
+data/cache/
+
+# 生成的报告文件
+*.xlsx
+*.xls
+
+# 测试输出文件
+test_output.pdf
+test_advanced_fixed.pdf
+test_report.xlsx
+
+# Claude 配置目录（个人设置）
+.claude/
+
+# Windows 空设备文件
+nul
+
+# 临时测试文件
+quick_test_*.xlsx
